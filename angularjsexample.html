@@ -10,6 +10,7 @@
     Last Name: <input type="text" ng-model="lastName"><br>
     <br>
     {{msg}}
+    {{message}}
     Full Name: {{firstName + " " + lastName}}
 
 </div>
@@ -20,6 +21,7 @@
         $scope.firstName= "John";
         $scope.lastName= "Doe";
         $scope.msg="Hello , "
+        $scope.message="Hello , "
     });
 </script>
 
